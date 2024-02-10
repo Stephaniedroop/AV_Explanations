@@ -295,8 +295,15 @@ d <- d %>% mutate(GenderExplainer=unlist(
       list(expPID, 'AgeGroup'),
       getDemographicExplainer
     )
+  ),
+  HighlightAV=unlist(
+    pmap(
+      list(expPID, 'HighlightAV'),
+      getDemographicExplainer
+    )
   )
 )
+
 
 
 #### 5) import the explanations-----------------------------
