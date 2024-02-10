@@ -164,7 +164,7 @@ Trust = unlist(
 
 # import scenario data
 sList <- fromJSON('scenario_annotations.json')
-View(sList)
+#View(sList)
 
 # initialize dataframe
 s <- data.frame(sList[[1]])
@@ -219,7 +219,7 @@ d <- d %>% mutate(ExplanationCuriosity=unlist(
 
 # for the annotators ('r' stands for 'raters')
 rList <- fromJSON('demographics_annotators.json')
-View(rList)
+#View(rList)
 
 r <- data.frame(rList[[1]])
 r$PID <- names(rList)[1]
@@ -252,7 +252,7 @@ AgeAnnotator = unlist(
 
 # for the explainers ('c' stands for 'creators')
 cList <- fromJSON('demographics_explainers.json')
-View(cList)
+#View(cList)
 
 c <- data.frame(cList[[1]])
 c$PID <- names(cList)[1]
@@ -299,5 +299,49 @@ d <- d %>% mutate(GenderExplainer=unlist(
 )
 
 
-#### 5) export the dataframe--------------
-write.csv(d, 'preProcessedData.csv')
+#### 5) import the explanations-----------------------------
+
+getExplanation <- function(explanation_id){
+  sub <- exp %>% filter(EID==explanation_id)
+  return(sub$Text)
+}
+
+d <- d %>% mutate(explanation = unlist(pmap(
+  list(EID),
+  getExplanation
+)))
+
+
+#### 6) import scenario data---------------------------------
+
+sList2 <- fromJSON('metadata/scenarios_metadata.json')
+
+
+s2 <- data.frame(sList2$scenarios)
+
+getScenarioDescription <- function(scenario_id){
+  sub <- s2 %>% filter(SID==scenario_id)
+  return(sub$Description)
+}
+
+getScenarioName <- function(scenario_id){
+  sub <- s2 %>% filter(SID==scenario_id)
+  return(sub$Name)
+}
+
+
+d <- d %>% mutate(scenarioDescription=unlist(
+  pmap(
+    list(SID),
+    getScenarioDescription
+  )
+),
+scenarioName=unlist(
+  pmap(
+    list(SID),
+    getScenarioName
+  )
+))
+
+#### 6) export the dataframe--------------
+#write.csv(d, 'preProcessedData.csv')
