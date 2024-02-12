@@ -18,7 +18,7 @@ se <- function(vector){
 #### Load data and do some more pre-processing---------------------
 
 # import the pre-processed data
-d <- read.csv('Analysis/preProcessedData.csv')
+d <- read.csv('../Analysis/preProcessedData.csv')
 
 # put data in long format
 dlong <- d %>% gather(key='perceivedType', value='value',
