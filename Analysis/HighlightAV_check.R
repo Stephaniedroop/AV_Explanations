@@ -3,6 +3,7 @@
 
 # Script to check whether the manipulation of participant seeing 
 # 'car' or 'self driving car' (in var 'HighlightAV') had effect
+# lmer model found NO DIFFERENCE >>> THIS NOW SHOULD BE OUR MAIN LINE
 # Following format of `anaysis.R` but separate script to keep them short
 
 # load packages
@@ -19,6 +20,23 @@ d <- read.csv('../Analysis/preProcessedData.csv') # 4963 obs of 25 vars
 # with each other (rs > .8), we create a composite averaged 'Quality' variable
 d <- d %>% mutate(Quality = (SufficientDetail + Satisfying + Complete)/3) # 4963 of 26 vars
 
+# Set type as a factor
+d$type <- as.factor(d$type)
+
+# To see if car type (AV or car) manipulation has effect on quality
+mqual <- lmer(Quality ~ type * HighlightAV + 
+            (1|SID)+(1|EID)+(1|PID), 
+          data = d)
+summary(mqual) # Doesn't look like it, but could still check syntax and whether we need all the random effects
+
+# But the real test is whether the car type manipulation affects how likely people are to cite teleological explanations
+mtel <- lmer(Teleological ~ type * HighlightAV + 
+               (1|SID)+(1|EID)+(1|PID), 
+             data = d)
+summary(mtel)
+
+# --------------------- Data visualisation -----------------------------
+# Note this section just to inspect the effect on Quality of the car type manipulation
 # Now we diverge from `analysis.R` by splitting the dataset in two to reproduce 
 # the same figs QualitybyExp and QualitybyExpScer but for each group separately
 
@@ -91,7 +109,3 @@ Pdav
 
 # The two plots look almost identical, with same pattern and values 
 # (although there are fewer datapoints for the car than the av)
-# Still, need to test this difference statistically - not yet sure how...
-# Also, the two plots seem to show a cluster of explanations with very low quality, esp. in car condition. why?
-# check back in for now and work on again later...
-

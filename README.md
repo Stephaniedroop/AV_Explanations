@@ -18,6 +18,7 @@ License is with CC 4 - but how?
 
 ## Notes
 
+- MON 12 FEB - new file `HighlightAV.R` lmer finds no difference in ppts' propensity to cite beliefs, desires and intentions of blue car between thinking the blue car is an AV or has a human driver. So, intentional stance is a useful fiction, albeit one we knew all along (how likely we are to say 'my bluetooth is in a huff', 'my laptop isn't talking to the printer') but good to have empirical backup, may help design of AVs.
 - File structure likely to change as we get the project off the ground (Feb 2024).
 
 ## Folders
