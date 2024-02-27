@@ -3,7 +3,8 @@
 
 # Script to check whether the manipulation of participant seeing 
 # 'car' or 'self driving car' (in var 'HighlightAV') had effect
-# lmer model found NO DIFFERENCE >>> THIS NOW SHOULD BE OUR MAIN LINE
+# lmer model found NO DIFFERENCE >>> 
+
 # Following format of `anaysis.R` but separate script to keep them short
 
 # load packages
@@ -23,17 +24,54 @@ d <- d %>% mutate(Quality = (SufficientDetail + Satisfying + Complete)/3) # 4963
 # Set type as a factor
 d$type <- as.factor(d$type)
 
-# To see if car type (AV or car) manipulation has effect on quality
+# To see if car type (AV or car) manipulation has effect on QUALITY
 mqual <- lmer(Quality ~ type * HighlightAV + 
             (1|SID)+(1|EID)+(1|PID), 
           data = d)
-summary(mqual) # Doesn't look like it, but could still check syntax and whether we need all the random effects
+summary(mqual) # No
 
-# But the real test is whether the car type manipulation affects how likely people are to cite teleological explanations
+sq2 <- standardize_parameters(mqual, method = "pseudo",
+                              ci_method = "satterthwaite")
+sq2
+
+mqual2 <- lmer(Quality ~ type + HighlightAV + 
+                (1|SID)+(1|EID)+(1|PID), 
+              data = d)
+summary(mqual2)
+
+anova(mqual,mqual2)
+
+# What about without HighlightAV altogether?
+mqual3 <- lmer(Quality ~ type + (1|SID)+(1|EID)+(1|PID), data = d)
+# Compare with and without the predictor
+anova(mqual3,mqual2)
+
+
+# But the real test is whether the car type manipulation affects how teleological people find the explanations
 mtel <- lmer(Teleological ~ type * HighlightAV + 
                (1|SID)+(1|EID)+(1|PID), 
              data = d)
 summary(mtel)
+
+mtel2 <- lmer(Teleological ~ type + HighlightAV + 
+               (1|SID)+(1|EID)+(1|PID), 
+             data = d)
+summary(mtel2)
+
+anova(mtel,mtel2) # No significant effect, as shown by p>.05, very slight difference in AIC, BIC, loglik
+
+mtel3 <- lmer(Teleological ~ type + 
+                     (1|SID)+(1|EID)+(1|PID), 
+                   data = d)
+summary(mtel3)
+
+anova(mtel3, mtel2)
+
+# From package effectsize
+sq0 <- standardize_parameters(mtel, method = "pseudo",
+                              ci_method = "satterthwaite")
+sq1 <- standardize_parameters(mtel2, method = "pseudo",
+                              ci_method = "satterthwaite")
 
 # --------------------- Data visualisation -----------------------------
 # Note this section just to inspect the effect on Quality of the car type manipulation
