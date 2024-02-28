@@ -1,0 +1,1782 @@
+{
+    "65428adcca88b655d14cf6db":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63d8b9a4a0e4ef51052ed449":{
+        "SID":9,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5dba287f9653e80734e335d7":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "6545224c282121819b2d88ce":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6295270587394aac7ce600db":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "6441557474b4acdbbcc9e4eb":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6111ad7c064a7c16eeb2fb77":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "63b7038129d632d1d008fd74":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "558fff05fdf99b3f7aada357":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5d730aab6b4b16001ab9699e":{
+        "SID":2,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6529aad61b213fbbda2db081":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5a8cbc73eea3d300016eaf0b":{
+        "SID":1,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6549c057c03dd7b7b3166a9d":{
+        "SID":2,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6547a221739a65e01e7b83c2":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63dbfc8d8a0ba75fd63f08b7":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "631cf52e293371776b9b0c28":{
+        "SID":10,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "612e88e81952522ab3d8d8a7":{
+        "SID":6,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5f4c4dd50a92c286c1972f06":{
+        "SID":4,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "642ed2305e506d55d76ee8f4":{
+        "SID":12,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6410c7046c0f645110e71615":{
+        "SID":6,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "63dd74130daeb04666667bf9":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5ee04a3f7dfcae39390e6553":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6547d2f1f53f11ae40ae3e54":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "61266f4abaa516e9a40c6f68":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5b121f3ebd9c31000156bf23":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5dc5bd296a8a334443fbf216":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5dd286042c5c1028d1725b77":{
+        "SID":7,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "610a81561cb8c17ebce209b3":{
+        "SID":8,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5ee561897247c02ad544c299":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "65490009b08b00cc5a0f7936":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5dc807ff27a267592c6129f5":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "63841b0a77166c22d8b325f5":{
+        "SID":10,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60c4e59f7d316239aa92f87d":{
+        "SID":3,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5c919a87707ed900018591e3":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5f9b6cc0e01ad13902b38f60":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5ea95ca4936cd3035f7e3e3a":{
+        "SID":1,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5d193535601cd70017727028":{
+        "SID":2,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "610c4bc982ba97f0ee19bafc":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "654954932df9a82c118d3a33":{
+        "SID":5,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "64427a7ac5edfedbe0c2779b":{
+        "SID":7,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5de83f3b3aa615000a41f831":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5e51c83155087a204d8e7f1f":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5bdcd88176d6d50001bc3849":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "6061fff2c21e787791b1d052":{
+        "SID":2,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "64727ea9591087aef21f3dcf":{
+        "SID":10,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "646ba35d130e15db275a6546":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5ea9e78822bb3115676e8296":{
+        "SID":5,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "62d76226d4848594e77ef056":{
+        "SID":1,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "63ea755c16e80945c6f29a5a":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63d2ecd25e1f8ee0f3e4a4bb":{
+        "SID":13,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "648a20d992b7fa8718009072":{
+        "SID":3,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5c3003e370d93a000122ca7c":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6273238a4a8b39041ff1bd2c":{
+        "SID":5,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6414be45ec452483d7579868":{
+        "SID":9,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "558cdd7efdf99b0f1cc5f4c1":{
+        "SID":14,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "641724c665e2974bb1dec659":{
+        "SID":6,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6469dc3806780b7f9bbefc5c":{
+        "SID":9,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "59894fbbda239a0001fb8e16":{
+        "SID":3,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63e51c565e10855233ec6ec5":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6163b1de42ca011e8f413ca9":{
+        "SID":8,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5b26b4ae007d870001c7cd78":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5e35ee03ce5a725a283da8cd":{
+        "SID":7,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5c818f0d4f23cf000132ad6f":{
+        "SID":8,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5f5128c3aa1c4e30e4506d2c":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "6292056a8669c2d1fd3049fc":{
+        "SID":14,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision."
+    },
+    "5ae5283253072800018d5b81":{
+        "SID":5,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "610046905c4dd2e3512e8928":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "63bc9c09666a2b909d967a98":{
+        "SID":14,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63e582d876eebd055a3bf6e7":{
+        "SID":3,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63d523d89e78ae6e711ada49":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5f233780d9463c01972da356":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "603fa7d057d382087d66d1c2":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5f32e865bd94490a64d9c9f5":{
+        "SID":2,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "650b8f28b68422dffbf65ebb":{
+        "SID":13,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "603ee3fb0ec4d3fcd8d70783":{
+        "SID":10,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6443231fbc6350e4ee5f2f25":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6417dfab27377aff2c54af66":{
+        "SID":6,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "610838248aa1f186a7bbe41c":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6455b4121cd3166666ae1fdd":{
+        "SID":14,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6314e875f7c98f1d344b2e3f":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6488e429e530a1949174c9f4":{
+        "SID":9,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision."
+    },
+    "5dd31ee6181abc335d955478":{
+        "SID":5,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "65106bf7a9c412896826466b":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5fa050c392ea490608739ed8":{
+        "SID":2,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "617531b45568af8db14c3a1f":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5ca4b562613eb10015b6e5f8":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5f7b85c23139fa143589b106":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "652cc1b92c358b7f3975f91b":{
+        "SID":8,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "65242054a6033b16e9aa9a7f":{
+        "SID":6,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5f85f217f845b10f388f2ce7":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5d2e1c52c3651500159f0a69":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "63062501b80b139870ea2af4":{
+        "SID":7,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "6110d59cbf733422cb867da5":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6349146a3cea617bfd8da767":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6548f63a116379d2a0f440d0":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "613e157ccd6af6049001ce25":{
+        "SID":1,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "654330ed45a4782f4794ff49":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5e6c057dbc9dab1ba2c5bac4":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision."
+    },
+    "654beb18b762f5afea837c8b":{
+        "SID":2,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "65490be68d93fd268a4c021c":{
+        "SID":10,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5846451a89af6500017f4bd9":{
+        "SID":3,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "5c7ecfbb4243370001ed2f0e":{
+        "SID":5,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "610869fdc0cd6f8e3db4cb52":{
+        "SID":14,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "652e8fa11356c619d2c8bdb3":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5bad4db8b712f30001b87990":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5f3b4e9c61c5b5864b78df00":{
+        "SID":3,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "6110de9b4f5ac5a4399c7b46":{
+        "SID":3,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63233b6cfc33c42fb00e3d9b":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "652566399ae5d2dbd3690260":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "64d50885740e0dfefd52c6f8":{
+        "SID":4,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "60fdd69df07af0302d9ce2de":{
+        "SID":5,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5d57a69c72ba1700184edd85":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision."
+    },
+    "60fc1aa417ba21b4776c548f":{
+        "SID":2,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5a639a04c0d836000107b977":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "62dc597fd77d6332766c29a4":{
+        "SID":8,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60ff99f7ece17d3730dc660c":{
+        "SID":12,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "63d7ade1683b50598105d5c1":{
+        "SID":10,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "575da735e6e5a10007016e41":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63cb582e0d7f8d8b8c3fd1af":{
+        "SID":3,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5c695a065416680001bef3c0":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "6361a8a745dd1d5d6f192d36":{
+        "SID":9,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6447c5bcb9daeaff1ab6b56c":{
+        "SID":9,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "640e2036e0ad54ebd72a767d":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "652ec5f6e37f499dbe95eb11":{
+        "SID":8,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5db0e17518230d00170d4332":{
+        "SID":5,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "61001e0da44d884fa49cd3b6":{
+        "SID":7,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5c43fb651ddd660001c9de3a":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "62b4ef82055cec7135502ada":{
+        "SID":6,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "65524ce2443c9df5aba5960c":{
+        "SID":14,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6541615deae1c39165776e01":{
+        "SID":10,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "6539518f1ace74e4d496fc7b":{
+        "SID":1,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "643e579ee0a551f6c18933cb":{
+        "SID":3,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "60ff1056c24ce88c061ed26d":{
+        "SID":2,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "644e80f65a5c0e0d2f9a433b":{
+        "SID":6,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5f4962321798ec4bf94a655f":{
+        "SID":8,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "605fdb3d6e5f793b3e407d73":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6137d996d42747efa344c1d4":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "652b45ca9fb27ba9325a99cd":{
+        "SID":4,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63d41123bd9ac5e95fc74616":{
+        "SID":8,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "6532855fa551f7c6854e3f0e":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5f485c765324cf1ed7d564cd":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5782bcc0275be60001358189":{
+        "SID":5,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5fec06ae197628d566cdc782":{
+        "SID":7,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5c6071a1e1df700001ca8bf1":{
+        "SID":13,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "61113f20a9497a72b0c1ed6c":{
+        "SID":7,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision."
+    },
+    "5b15d20c444cef0001cb1153":{
+        "SID":10,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "654dffa85761097ee651c91b":{
+        "SID":6,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "60885dc6571926117732b41e":{
+        "SID":3,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "636212999d9d4a04989c95e9":{
+        "SID":9,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "63d7d0047975f39570dfa810":{
+        "SID":3,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6504a6b6d7039b2cf16b2061":{
+        "SID":14,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "63f7cb90535ec571907e1824":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "63e6a210aed5ff20a7f66025":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5e1d70edd727e90dea42d137":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "63d410114a361b7bee9c12b9":{
+        "SID":1,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5ca3ccae7958d0001689df68":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5d44afdcad6d110019b0a960":{
+        "SID":5,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "6532c399a90f96383b501207":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "6413da91316cf1592bc4ba89":{
+        "SID":10,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "653fe29764bb4660b0c477f7":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5d1e5ece2e9ac30016b522c5":{
+        "SID":11,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "65368c3a27f9818abb93b30f":{
+        "SID":9,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "61115c17d75288988478680d":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5d94d7d77587a900150ac8d0":{
+        "SID":5,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "64707fd9bca46372e3a80468":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5eb6f666c792cd6143878d27":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "642fddea569bcd81fca8f35a":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "63d00077cc15749d84f2a41f":{
+        "SID":6,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6537d0d78021a891975e8fcb":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "60b3e6ad448226548d21fc4d":{
+        "SID":13,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision."
+    },
+    "6464daa493b4907f3e042730":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5e224d74e8ec0753489bff2a":{
+        "SID":7,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "627a7fc214142c6f228e84fb":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5c32331c70d93a00012338fd":{
+        "SID":1,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "615e1782e969d4939045c54f":{
+        "SID":14,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6474e499d4beda259e8f0574":{
+        "SID":2,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "60b69129f584ee4e38acf2a0":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5f5fa55d3aa555022fd411bc":{
+        "SID":4,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "639e0331bc3cc615f5a3dd89":{
+        "SID":10,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "6476ffbd2c24ecefacaad263":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "63c34086cb929e7c9b844a67":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "61412d50c1d83f94e448c0f3":{
+        "SID":11,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "654f3f5b7634b6d7df3e9065":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "64e38e763769aa4745542a14":{
+        "SID":11,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "54d2c4e2fdf99b2c319a8cf6":{
+        "SID":3,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision."
+    },
+    "55bc1119fdf99b5693f3ec47":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "58060d08b869700001d70b8c":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "64449372e128dca08d8184df":{
+        "SID":9,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63d14cdff20c948a36b4ac94":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "641361951f32a46c07479b33":{
+        "SID":5,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6450ee577358c55508e77ff3":{
+        "SID":6,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "651bdda9b6de12dbf5d22b1d":{
+        "SID":13,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5ed1d52eea444913b2d4576d":{
+        "SID":8,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "558c2205fdf99b5d984bbb15":{
+        "SID":2,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6549c53d69d46d8e4b6c869a":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "64467092479723cb7906e371":{
+        "SID":1,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "63cdf894c118ad4f84489c1a":{
+        "SID":1,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5d4c7acd2799110019400b6a":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "646cfc663c6a71e2ab992704":{
+        "SID":7,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5dd2f0818950ba2f90b01bc1":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6443e32d9b92b88d2fd504f1":{
+        "SID":5,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "614fb0e5a57edac09cfeaf1f":{
+        "SID":7,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5d7fd2a5987f70001602d95b":{
+        "SID":12,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "645a0942d384b277754101c6":{
+        "SID":4,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "5e1bfb604231d840ef7103d8":{
+        "SID":13,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "55a9f6a1fdf99b2d81b5295f":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5c475608cae0ab000188cb6e":{
+        "SID":4,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "58dcfe010674970001e928e5":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "62fb59166b94e6240417f7c7":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5f0e8b3ec42b54043d5de0ca":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5dd36bbae426bd3650e2c807":{
+        "SID":14,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "610063614e6ba35532307dda":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5f565f889df06007662eaa84":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "6294e3dd871a695346c5d97a":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6505eee52e6e130a627ad7d9":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "611d611769a71eb0469ffd6c":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5fc8232ac3b2ae180fa1a39b":{
+        "SID":3,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60fcc7e11cf36a397867dd8c":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5fa4ce917648f90008a584ab":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "61023dfeb1dc1c807d65a987":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5e7d11401ae8680ca60eed9e":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "610ec31b33de16c5167f3062":{
+        "SID":10,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5efc24acc8e96b1e45596223":{
+        "SID":4,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5ed96b216cd601153c1882f0":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "62c5dc08e00a823760c8196d":{
+        "SID":11,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "60c382725a7a55abef2e8e99":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5dda7c46dfe9da9d4db15522":{
+        "SID":6,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "6082c37809793130ca4b3f0e":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "611bef112e9841a0a0f5a8d4":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "64820e32334869281cacc339":{
+        "SID":5,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "651abffdad473f8f07e8a2e3":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "6075ff702ca9dd94767cca11":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6450fec9aaeeb9567886560c":{
+        "SID":9,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "651d65a5b995596cfd8988c0":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "63eab44b1f5d72735bae1146":{
+        "SID":6,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "651db8d573d173562ea3fe6f":{
+        "SID":12,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5e8f2460dfcafb031f473c9d":{
+        "SID":12,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63ecfea248ea89e9bb6b2a9a":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "654086b56a45118a32fe4f51":{
+        "SID":9,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63b4a880e615d21a58306118":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "6130c9c7f70b6f67907d58d5":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "654e005fd386722f1c6bfe62":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "55d524a68ce09000057d4826":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "62ddbd7eb3e9431e49b46ec1":{
+        "SID":12,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision."
+    },
+    "61092dc329e0316f7d717c8f":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5ff4bac1d92c4a412a2c19a2":{
+        "SID":4,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "60ba366b3792b3b40b6716bc":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6298da02915d3fdba6ad828a":{
+        "SID":8,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "648a4d65fb0120fe5dbbabb2":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5d7fdfd7d8e176001983ffa2":{
+        "SID":11,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next."
+    },
+    "5fd43da30be3161b9a3ec2d6":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60feb2be3bb57f04327c03f4":{
+        "SID":5,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "628fa4639666e8550aa139d5":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63e51e55974365f1e43df265":{
+        "SID":10,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "55d4cb9158c35800113dc22e":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "631f55697876499cef1a3ebb":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6411aaa3fbe228021c6fff5e":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60fd8b1c25fe10912980d749":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "63f173a98bc1a5e9c1f009b9":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "645abc0f7fa6368e6df2d973":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5af12b37aec2b600010a8f4c":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5f94a8e7fa8c422fc88940b0":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "654a20b39ae6a274ce93820b":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "654f8b31b5ffd3ed99a69ad6":{
+        "SID":6,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "6475e3b08c14ba10d9e6f70f":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "640b129fbdcd3bb1c4f1f7fe":{
+        "SID":5,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60b18fbfb6c5d8edfaa5bed0":{
+        "SID":9,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5c525705f3001c000124e4f4":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "648b61896bde60c2fef683a1":{
+        "SID":14,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6543cf7e70d56539c9d742b5":{
+        "SID":2,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "5b0319e68d753d0001cc75c7":{
+        "SID":2,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "647c634cd65cca58780f6b82":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "6108d6efa698e3dbe3b313d3":{
+        "SID":13,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "640c3e718d10af5614ee82ee":{
+        "SID":12,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "65400f52da5aac3025e26c47":{
+        "SID":3,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "6361a6a7be16d8144319fd3a":{
+        "SID":12,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5cb489ff0cd1ed0017465d19":{
+        "SID":14,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "650696eb37aa4f911bfde76b":{
+        "SID":3,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "63c0841888a364c48a90e052":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63d2d90dab88cd046129d697":{
+        "SID":7,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "61084ec63919365662b9cc02":{
+        "SID":8,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "653177c02de58f0b5da387a9":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "574beef75e549100063c2ad0":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5b25d4db0ec82d0001d1fdde":{
+        "SID":8,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6548bbb5d378b15bd8e187e7":{
+        "SID":9,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "64514dd03f467fe3cf0cf364":{
+        "SID":2,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5f606aeccdc12d000a79181a":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5bca67940f10750001d75f9f":{
+        "SID":6,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "651c1abbc73b6eea8fa97193":{
+        "SID":4,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "6554d04c73158a94d70192dd":{
+        "SID":6,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "63f3727c6e41f63c9b2a6f1f":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "650cbbfec37399108c60a734":{
+        "SID":7,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "652f093d9702b798ff40bfdd":{
+        "SID":11,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5c7b23486babcb000184f1f1":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "648c815013ff60a0d783f986":{
+        "SID":8,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "645e67cbcb96413bba593c53":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "646f48e697286b05e29ad0d4":{
+        "SID":9,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5f888f1504ea37030833e9ec":{
+        "SID":2,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "653f07a14204d793e710611e":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "653bb9670dcc502f9cce169c":{
+        "SID":11,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "64d61f070e4a6c0e008d692a":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "64776e3beba1085215214ec0":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "63103bd06b5135122e25d6c6":{
+        "SID":6,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "652c1127ce21a1fecfc05fbc":{
+        "SID":5,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "62a779f845a7840040d41bf8":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "616cda4e2f5f884cdd46b2eb":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60f705f462651bb6fadc67ac":{
+        "SID":14,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "650ddb31882ae49811d4342f":{
+        "SID":7,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6121bad52d83ea41d7f38bb0":{
+        "SID":3,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "610c153b0ef9c9d34bb62bfb":{
+        "SID":11,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5cb780117c68990016026fcf":{
+        "SID":13,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "62851efba924ed81f6f0e7f4":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5d847d36edd4ae000190058e":{
+        "SID":14,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5d1e4f1d51bab90018162332":{
+        "SID":11,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5dfbc3a1946e978e69d8e586":{
+        "SID":11,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5f5fef6ce0809f0d5b3cde5c":{
+        "SID":7,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "610aaf2df1bbcc04ce0d2237":{
+        "SID":3,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5f5addd46352f01f839a6b23":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "654e3d64d2cecbb0572af9d7":{
+        "SID":14,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5cc53bef8d2a1e000185c3a4":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "55fad53e77f33b0005cb1d4b":{
+        "SID":3,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5d94d2ab9ac1cb001775fac2":{
+        "SID":12,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "652d507635c5c0bac30e338c":{
+        "SID":13,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6290d46c21b280fe8d88155f":{
+        "SID":1,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "652582ac87122a4fb97cb2bc":{
+        "SID":10,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "5c6d6ed7031a7c0001908352":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "63cd12b74ea95df1351d546d":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "633b87cee034f7bf70e3faa5":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5febbf662f5671801144fd4d":{
+        "SID":6,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "651eb3b307c488389d0bf9a0":{
+        "SID":4,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "6545111bd4b7083d749088b4":{
+        "SID":5,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "63bca22d6fa8440663c937f1":{
+        "SID":10,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "60ceb6637a0ee66f8b4cc27c":{
+        "SID":12,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "60de09f7dc5304e0c0f19485":{
+        "SID":2,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "63d7b1a0af0a978609a30e3b":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "652439c39ee97cd651caf1d7":{
+        "SID":12,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "611150a3fdbb6d0adf79f15a":{
+        "SID":6,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "5eefc651cb94ad4c4d017b86":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "60e93525447d5e9ac6ebbd55":{
+        "SID":9,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "646b776eca37542a899c1de5":{
+        "SID":4,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "654fee887cfc9d4e73bab32d":{
+        "SID":12,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "5dd319faef419732324ad6cc":{
+        "SID":14,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "5fc1976d9ea7b31c6ae74f9f":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "63e5bbe4aa8fac2e51d4fe5c":{
+        "SID":8,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "654d03ec6d9ed752946923cd":{
+        "SID":1,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "652d923f7b918d7d09ac931a":{
+        "SID":5,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    },
+    "64d6b161e0241d66164d55e9":{
+        "SID":9,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To understand what the self-driving car would do next."
+    },
+    "64136f88c10044d1beb69d34":{
+        "SID":7,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6542a7fa84b8ff916640cbde":{
+        "SID":2,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know why the self-driving car did not make some other decision.,To know what the self-driving car would have done if something had been different."
+    },
+    "643480e93c33701dfe923abd":{
+        "SID":10,
+        "ExplanationNeed":"None at all",
+        "ExplanationCuriosity":"To know what the self-driving car would have done if something had been different."
+    },
+    "5928b6414a05920001393ecf":{
+        "SID":4,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To understand what the self-driving car would do next.,To know what the self-driving car would have done if something had been different."
+    },
+    "6533d4a1e9ab7a074c52fbba":{
+        "SID":14,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly.,To know what the self-driving car would have done if something had been different."
+    },
+    "6540bfa54dda4450c353a98c":{
+        "SID":2,
+        "ExplanationNeed":"A moderate amount",
+        "ExplanationCuriosity":"To know that I understand the self-driving car correctly."
+    },
+    "6544fd37659faede39269232":{
+        "SID":12,
+        "ExplanationNeed":"A great deal",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "5d506e6d4040a40016bb186a":{
+        "SID":3,
+        "ExplanationNeed":"A lot",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision.,I was surprised by the self-driving car's actions and want to know what I missed."
+    },
+    "63e51c6b462cfa8a42eba8b2":{
+        "SID":9,
+        "ExplanationNeed":"A little",
+        "ExplanationCuriosity":"To know why the self-driving car did not make some other decision."
+    }
+}

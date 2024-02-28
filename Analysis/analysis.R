@@ -18,7 +18,7 @@ se <- function(vector){
 #### Load data and do some more pre-processing---------------------
 
 # import the pre-processed data
-d <- read.csv('../Analysis/preProcessedData.csv')
+d <- read.csv('Analysis/preProcessedData.csv')
 
 # put data in long format
 dlong <- d %>% gather(key='perceivedType', value='value',
@@ -522,6 +522,7 @@ d %>% filter(GenderAnnotator=='Male'|
 for (i in 1:14){
   sub <- dcompexp %>% filter(type=='Teleological', SID==i)
   index <- which.max(sub$Quality)
+  print(i)
   print(sub[index,]$Quality)
   print(sub[index,]$explanation)
 }
@@ -529,6 +530,7 @@ for (i in 1:14){
 for (i in 1:14){
   sub <- dcompexp %>% filter(type=='Mechanistic', SID==i)
   index <- which.max(sub$Quality)
+  print(i)
   print(sub[index,]$Quality)
   print(sub[index,]$explanation)
 }
@@ -536,6 +538,7 @@ for (i in 1:14){
 for (i in 1:14){
   sub <- dcompexp %>% filter(type=='Counterfactual', SID==i)
   index <- which.max(sub$Quality)
+  print(i)
   print(sub[index,]$Quality)
   print(sub[index,]$explanation)
 }

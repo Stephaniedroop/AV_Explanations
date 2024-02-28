@@ -1,12 +1,13 @@
 # Autonomous Vehicle Explanations
 
-This is a repo for working analysis. For background on the dataset and annotations please contact Balint Gyevnar.
+This is a repo for working analysis. Background on the raw data can be found at
+https://datashare.ed.ac.uk/handle/10283/8714
 
 ## Authors
 
-- Balint Gyevnar
+- Balint Gyevnar (balint.gyevnar@ed.ac.uk)
 - Stephanie Droop (stephanie.droop@ed.ac.uk)
-- Tadeg Quillien
+- Tadeg Quillien (tadeg.quillien@ed.ac.uk)
 
 ## Packages needed for analysis in R
 
@@ -23,8 +24,12 @@ This is a repo for working analysis. For background on the dataset and annotatio
 
 2024 openly licensed via CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
 
-## Files
+## R Files
 
-- `preprocessing.R` - creates file `preProcessedData.csv` from video stimuli and participant data (not stored here)
-- `analysis.R` - main analysis file with regressions and testing contribution of each predictor
-- `HighlightAV_check.R` - supplementary file to run same analyses as `analysis.R` split by the AV/car manipulation.
+- `analysis.R` - main analysis file with regressions and testing contribution of
+each predictor
+- `HighlightAV_check.R` - supplementary file to run same analyses as
+`analysis.R` split by the AV/car manipulation.
+- `preprocessing.R` - if one wants to re-create the file `preProcessedData.csv` 
+from the raw data.
+

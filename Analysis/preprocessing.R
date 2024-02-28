@@ -13,7 +13,7 @@ library(jsonlite)
 
 # import data (this creates a List, that we then must
 # convert into a dataframe)
-expList <- fromJSON('explanations.json', flatten=FALSE)
+expList <- fromJSON('Analysis/explanations.json', flatten=FALSE)
 
 # initialize the dataframe
 exp <- data.frame(expList[[1]])
@@ -36,7 +36,7 @@ for (i in 2:length(expList)){
 ### of participants
 
 # import dataset
-dList <- fromJSON('explanation_annotations.json', flatten=TRUE)
+dList <- fromJSON('Analysis/explanation_annotations.json', flatten=TRUE)
 
 # initialize the dataframe (this dataframe will be our main one)
 d <- data.frame(dList[[1]][[1]])
@@ -163,7 +163,7 @@ Trust = unlist(
 #### 3) extract scenario ratings---------------------
 
 # import scenario data
-sList <- fromJSON('scenario_annotations.json')
+sList <- fromJSON('Analysis/scenario_annotations.json')
 #View(sList)
 
 # initialize dataframe
@@ -218,7 +218,7 @@ d <- d %>% mutate(ExplanationCuriosity=unlist(
 #### 4) import demographic information--------------
 
 # for the annotators ('r' stands for 'raters')
-rList <- fromJSON('demographics_annotators.json')
+rList <- fromJSON('Analysis/demographics_annotators.json')
 #View(rList)
 
 r <- data.frame(rList[[1]])
@@ -235,7 +235,6 @@ getDemographic <- function(participant_id, variable){
   sub <- r %>% subset(PID==participant_id)
   return(sub[variable])
 }
-getDemographic('65428adcca88b655d14cf6db', 'Gender')
 
 d <- d %>% mutate(GenderAnnotator = unlist(
   pmap(
@@ -251,7 +250,7 @@ AgeAnnotator = unlist(
 ))
 
 # for the explainers ('c' stands for 'creators')
-cList <- fromJSON('demographics_explainers.json')
+cList <- fromJSON('Analysis/demographics_explainers.json')
 #View(cList)
 
 c <- data.frame(cList[[1]])
@@ -321,7 +320,7 @@ d <- d %>% mutate(explanation = unlist(pmap(
 
 #### 6) import scenario data---------------------------------
 
-sList2 <- fromJSON('metadata/scenarios_metadata.json')
+sList2 <- fromJSON('Analysis/scenarios_metadata.json')
 
 
 s2 <- data.frame(sList2$scenarios)

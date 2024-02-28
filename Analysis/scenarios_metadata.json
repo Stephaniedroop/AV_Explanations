@@ -1,0 +1,102 @@
+{
+    "n_scenarios": 14,
+    "scenario_list": [
+        "1-cut-between-cars",
+        "2-early-right-turn",
+        "3-merge-left-sooner",
+        "4-enter-roundabout-early",
+        "5-take-over-parking",
+        "6-vehicle-cut-ahead",
+        "7-slow-down-onramp",
+        "8-occluded-pedestrian-crossing",
+        "9-occluded-roundabout-entry",
+        "10-exiting-parked-car",
+        "11-ball-kid-breaking",
+        "12-truck-narrow-passage",
+        "13-very-curved-road",
+        "14-offramp-behind-truck"
+    ],
+    "scenario_files": {
+        "geojson": "GeoJSON description of the road layout.",
+        "osc": "OpenScenario v2.0 description of the driving scenario.",
+        "udatasmith": "UnrealEngine 4.x Datasmith file containing assets for importing the scenario into CARLA.",
+        "xodr": "OpenDrive v1.6 description of the road layout",
+        "zip": "Assets file to be extracted when importing scenario into CARLA.",
+        "rrscenario": "MathWorks RoadRunner 2022b version of the road scenario.",
+        "rrscene": "MathWorks RoadRunner 2022b version of the road scene.",
+        "png": "Illustrative top-down snapshot of the driving scenario with predicted trajectories of non-ego vehicles.",
+        "mp4": "Top-down recording of the driving scenario recorded in MathWorks RoadRunner 2022b."
+    },
+    "scenarios": [
+        {
+            "SID": "1",
+            "Name": "cut-between-cars",
+            "Description": "The ego vehicle needs to exit the highway through the off-ramp, but it is blocked by two other vehicles in the outer lane. One of the other vehicles notices the ego\u2019s intention to exit and slows down to allow the ego to pass between the two other cars. The ego then exits the highway."
+        },
+        {
+            "SID": "2",
+            "Name": "early-right-turn",
+            "Description": "The ego approaches a four-way crossroads from the south. At the same time a vehicle from the east approaches maintaining a high speed. In addition, from the west another vehicle approaches which comes to a rolling stop at the crossroads. This indicates to the ego that the vehicle from the west intends to turn left at the junction, and it is stopped to give way to the vehicle from the east. As the goal of the ego vehicle is to turn right, it can use this realisation to reach its destination sooner."
+        },
+        {
+            "SID": "3",
+            "Name": "merge-left-sooner",
+            "Description": "The ego approaches a T-junction. The vehicle on its right is coming to a rolling stop. Initially, this may be because the other vehicle could be turning left and is stopping to give way to the vehicle coming in the opposite direction. However, as the vehicle from the opposite direction passes, the ego predicts that the vehicle on its right is stopping to allow the ego to merge behind a waiting line of cars on the main road."
+        },
+        {
+            "SID": "4",
+            "Name": "enter-roundabout-early",
+            "Description": "As the ego approaches a roundabout, it recognises the intention of another vehicle already in the roundabout to exit at the next roundabout exit, therefore, the ego does not need to stop completely at the roundabout entry and can enter the roundabout faster. The ego recognises the intentions of the other vehicle because it changes lanes as the ego arrives at the roundabout and it also begins to slow down gradually for the turn."
+        },
+        {
+            "SID": "5",
+            "Name": "take-over-parking",
+            "Description": "The ego sees another vehicle slow down near a line of parked cars. It correctly predicts that the other vehicle intends to park. Since there is no one else on the oncoming lane, the ego can take over the parking vehicle to reach its goal faster which is to reach the end of the road."
+        },
+        {
+            "SID": "6",
+            "Name": "vehicle-cut-ahead",
+            "Description": "The vehicle in front of the ego cuts in front of the ego vehicle and begins to slow down. This is indicative of its intention to turn right at the T-junction. As the goal of the ego vehicle is to head straight it decides to change lanes to the left so that it may continue on towards its goal unimpeded."
+        },
+        {
+            "SID": "7",
+            "Name": "slow-down-onramp",
+            "Description": "The ego vehicle approaches a highway through an onramp where the view of the highway is obstructed by bushes. To avoid a possible collision, it slows down before merging onto the highway. The ego vehicle then observes another vehicle on the highway, it gives way, and then merges onto the highway to continue ahead."
+        },
+        {
+            "SID": "8",
+            "Name": "occluded-pedestrian-crossing",
+            "Description": "The ego vehicle enters an urban area with a junction and pedestrian crossings. Even though it cannot see the continuation of the main road curving to the right as the view is blocked by the buildings, the ego still slows down to make sure that it can safely stop at the pedestrian crossing. Once the building is out of sight, the ego vehicle notices pedestrians at the crossing and stops according to highway rules. It then continues onwards towards its goal."
+        },
+        {
+            "SID": "9",
+            "Name": "occluded-roundabout-entry",
+            "Description": "The ego vehicle\u2019s goal is to enter the roundabout. Even though it cannot see another vehicle in the roundabout due to the bushes in the middle, it stops at the entry because it sees another vehicle on its left being already stopped. This is indicative that the other vehicle is giving way to an unseen third vehicle in the roundabout. To execute its maneuvers safely, the ego therefore decides to give way as well and wait until both of the other vehicles have passed."
+        },
+        {
+            "SID": "10",
+            "Name": "exiting-parked-car",
+            "Description": "The ego arrives at a line of parked cars and decreases its speed slightly. It does this in order to pass the line of parked cars more safely in case an unattentive driver exits their parking spot while the ego is passing by. When this happens, the ego can break quickly thus avoiding an accident."
+        },
+        {
+            "SID": "11",
+            "Name": "ball-kid-breaking",
+            "Description": "The ego notices a ball drift out from behind a truck in front of it. Thus, it decides to break quickly as it predicts the ball to be followed by a person and this action avoids a potentially fatal crash."
+        },
+        {
+            "SID": "12",
+            "Name": "truck-narrow-passage",
+            "Description": "On a narrow road with cars parked on each side, the ego is following a truck ahead of itself. When the truck slows down to a stop, the ego vehicle predicts that there is an occluded third vehicle oncoming on the road, therefore it waits behind the truck. While the truck passes the parked vehicles, the ego still cannot see whether there are any other oncoming vehicles on the road. So it waits until the truck is completely clear of sight and confirms that passage is safe before continuing towards its goal."
+        },
+        {
+            "SID": "13",
+            "Name": "very-curved-road",
+            "Description": "The ego approaches a road section with very high curvature and rapidly decelerates to avoid swerving out of the road despite putting a large amount of jerk on the passenger which may be uncomfortable."
+        },
+        {
+            "SID": "14",
+            "Name": "offramp-behind-truck",
+            "Description": "The ego approaches an offramp it needs to exit through to reach its goal, however, a truck is blocking its way for changing lanes. It therefore decelerates rapidly to allow the truck to pass and to be able to confirm that there are no occluded vehicles on the outer lane, after which it can safely change lanes and off-ramp."
+        }
+    ]
+}
