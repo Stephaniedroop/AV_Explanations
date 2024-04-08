@@ -235,6 +235,7 @@ getDemographic <- function(participant_id, variable){
   sub <- r %>% subset(PID==participant_id)
   return(sub[variable])
 }
+getDemographic('65428adcca88b655d14cf6db', 'Gender')
 
 d <- d %>% mutate(GenderAnnotator = unlist(
   pmap(
@@ -349,5 +350,35 @@ scenarioName=unlist(
   )
 ))
 
-#### 6) export the dataframe--------------
-#write.csv(d, 'preProcessedData.csv')
+
+#### 7) import linguistic features
+
+ling <- fromJSON('Analysis/Linguistic Analysis/linguistic_features.json')
+
+# this function extracts linguistic features 
+getLinguisticFeature <- function(lingFeature, EID){
+  df <- ling[[EID]]
+  output <- df[lingFeature][[1]]
+  return(ifelse(is.null(output), NA, output))
+}
+
+# collect a list of the names for features
+features <- colnames(data.frame(ling[[1]]))
+features <- c(features[1:12],features[25:26])
+
+# import features to the dataframe
+for (i in features){
+  d <- d %>% mutate(
+    !!i := unlist(
+      pmap(
+        list(lingFeature=i, EID=EID),
+        getLinguisticFeature
+      )
+    )
+  )
+}
+
+
+
+#### 8) export the dataframe--------------
+write.csv(d, 'preProcessedData.csv')

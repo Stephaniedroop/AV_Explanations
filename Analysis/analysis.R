@@ -7,6 +7,7 @@ library(ggbeeswarm)
 library(ggcorrplot)
 library(colorspace)
 library(effectsize)
+library(lmerTest)
 library(ggpubr)
 
 # convenience function 
@@ -42,7 +43,16 @@ dcompexp <- d %>% group_by(EID, type, SID, explanation, scenarioName,
             MechanisticAgent=mean(MechanisticAgent),
             MechanisticLayout=mean(MechanisticLayout),
             ExplanationNeed=mean(ExplanationNeed),
-            NumCauses=mean(NumCauses))
+            NumCauses=mean(NumCauses),
+            AnthroScore=mean(AnthroScore, na.rm=T),
+            NumWords=mean(NumWords),
+            NumSentences=mean(NumSentences),
+            NumTokens=mean(NumTokens),
+            MinDepDepth=mean(MinDepDepth),
+            MeanDepDepth=mean(MeanDepDepth),
+            MaxDepDepth=mean(MaxDepDepth),
+            MaxDepLength=mean(MaxDepLength)
+            )
 
 
 #### Manipulation check and correlation matrix------------------------
@@ -88,6 +98,7 @@ anova(n,f)
 ## https://osf.io/wyk2j; Sulik, J., van Paridon, J., & Lupyan, G. (2023). 
 ## Explanations in the wild. Cognition, 237, 105464.)
 
+library(Hmisc)
 # create correlation matrix
 rdf <- d %>% select(Satisfying, SufficientDetail, Complete, Trust, 
                     Teleological, MechanisticAgent, MechanisticLayout,
@@ -522,7 +533,6 @@ d %>% filter(GenderAnnotator=='Male'|
 for (i in 1:14){
   sub <- dcompexp %>% filter(type=='Teleological', SID==i)
   index <- which.max(sub$Quality)
-  print(i)
   print(sub[index,]$Quality)
   print(sub[index,]$explanation)
 }
@@ -530,7 +540,6 @@ for (i in 1:14){
 for (i in 1:14){
   sub <- dcompexp %>% filter(type=='Mechanistic', SID==i)
   index <- which.max(sub$Quality)
-  print(i)
   print(sub[index,]$Quality)
   print(sub[index,]$explanation)
 }
@@ -538,7 +547,6 @@ for (i in 1:14){
 for (i in 1:14){
   sub <- dcompexp %>% filter(type=='Counterfactual', SID==i)
   index <- which.max(sub$Quality)
-  print(i)
   print(sub[index,]$Quality)
   print(sub[index,]$explanation)
 }
@@ -567,3 +575,172 @@ for (i in 1:14){
   print(sub[index,]$explanation)
 }
 
+
+#### Test the linguistic features-----------------------------
+
+# does the experimental manipulation have an effect on the AnthroScore?
+
+dcompexp %>% ggplot(aes(x=type, y=AnthroScore))+
+  geom_quasirandom(aes(y=AnthroScore+rnorm(nrow(dcompexp), 0, .05), color=type),
+                   cex=.7)+
+  stat_summary(fun='mean', geom='line', aes(group=1))+
+  stat_summary(fun='mean', geom='point', pch=21, size=2, fill='black')+
+  stat_summary(fun.data='mean_se', geom='errorbar', width=.1)+
+  #coord_cartesian(ylim=c(1,5))+
+  xlab('Explanation Type')+ylab('AnthroScore')+
+  #facet_wrap(~SID, nrow=2)+
+  scale_color_discrete(name='Explanation Type')+
+  theme_classic()+theme(legend.position='top',
+                        axis.text.x=element_blank(),
+                        axis.title.x=element_blank(),
+                        axis.ticks.x=element_blank())
+
+# is there a relationship between AnthroScore and Quality?
+dcompexp %>% ggplot(aes(x=AnthroScore,y=Quality))+
+  geom_point()+
+  geom_smooth(method='lm')+
+  theme_classic()
+
+# is there an interaction between explanation prompt and AnthroScore?
+m1 <- lmer(Quality ~ type*AnthroScore+
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d)
+
+mnull <- lmer(Quality ~ type+AnthroScore+
+                (1|SID) + (1|EID)+
+                (1|PID),
+              data=d)
+
+anova(mnull, m1) # p = .07
+
+# which linguistic features predict perceived quality?
+# we use several regressions because many features (e.g. number of words and
+# number of tokens) are highly correlated
+
+summary(lmer(Quality ~ NumSentences +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+summary(lmer(Quality ~ NumWords +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+summary(lmer(Quality ~ NumTokens +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+summary(lmer(Quality ~ MinDepDepth +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+summary(lmer(Quality ~ MeanDepDepth +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+summary(lmer(Quality ~ MaxDepDepth +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+summary(lmer(Quality ~ MaxDepLength +
+               (1|SID) + (1|EID)+
+               (1|PID),
+             data=d))
+
+
+
+
+### Counterfactual explanations are rated as less good despite the fact that
+### they're longer, and that longer explanations are rated as better
+# This is in part because of the effect of NumWords on perceived Quality is 
+# weaker for Counterfactual explanations
+
+dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
+  geom_point()+scale_x_continuous(trans='log10', breaks = c(3,9,30,90))+
+  geom_smooth(method='lm')+
+  coord_cartesian(ylim=c(1,5))+
+  ylab('Perceived Quality')+xlab('Number of Words')+
+  scale_color_discrete(name='Explanation Type')+
+  #facet_wrap(~SID)+
+  theme_classic()+theme(legend.position = 'top',
+                        axis.title=element_text(size=16),
+                        axis.text=element_text(size=13),
+                        legend.text=element_text(size=12),
+                        legend.title = element_text(size=16)
+                        )
+
+#ggsave('QualityFromWords.png', dpi=600, width=6.5, height=6)
+
+# broken down by Scenario
+dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
+  geom_point()+scale_x_continuous(trans='log10', breaks = c(3,9,30,90))+
+  geom_smooth(method='lm')+
+  coord_cartesian(ylim=c(1,5))+
+  ylab('Perceived Quality')+xlab('Number of Words')+
+  scale_color_discrete(name='Explanation Type')+
+  facet_wrap(~SID)+
+  theme_classic()+theme(legend.position = 'top',
+                        axis.title=element_text(size=16),
+                        axis.text=element_text(size=13),
+                        legend.text=element_text(size=12),
+                        legend.title = element_text(size=16)
+  )
+
+#ggsave('QualityFromWordsByScer.png', dpi=600, width=10, height=10)
+
+
+
+dcompexp %>% ggplot(aes(x=NumSentences,y=Quality,color=type))+
+  geom_point()+
+  geom_smooth(method='lm')+scale_x_continuous(trans='log10')+
+  theme_classic()
+
+
+dcompexp %>% ggplot(aes(x=NumTokens,y=Quality,color=type))+
+  geom_point()+
+  geom_smooth(method='lm')+scale_x_continuous(trans='log10')+
+  theme_classic()
+
+
+
+# test the interaction between type and number of words
+
+mNumWords <- lmer(
+  Quality ~ type*NumWords +  (1|SID) + (1|EID)+
+    (1|PID), data=d
+)
+summary(mNumWords)
+
+mNumWordsNull <- lmer(
+  Quality ~ type+NumWords +  (1|SID) + (1|EID)+
+    (1|PID), data=d
+)
+
+anova(mNumWords, mNumWordsNull)
+
+# dependency depth has a larger effect on Mechanistic and Teleological
+# than Counterfactual explanations
+d %>% ggplot(aes(x=MeanDepDepth,y=Quality,color=type))+
+  geom_point()+
+  geom_smooth(method='lm')+
+  theme_classic()
+
+# test the interaction
+mDep <- lmer(
+  Quality ~ type*MeanDepDepth +  (1|SID) + (1|EID)+
+    (1|PID), data=d
+)
+summary(mDep)
+
+mDepNull <- lmer(
+  Quality ~ type+MeanDepDepth +  (1|SID) + (1|EID)+
+    (1|PID), data=d
+)
+
+anova(mDep, mDepNull)
