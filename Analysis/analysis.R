@@ -9,6 +9,7 @@ library(colorspace)
 library(effectsize)
 library(lmerTest)
 library(ggpubr)
+library(ggExtra)
 
 # convenience function 
 se <- function(vector){
@@ -51,7 +52,8 @@ dcompexp <- d %>% group_by(EID, type, SID, explanation, scenarioName,
             MinDepDepth=mean(MinDepDepth),
             MeanDepDepth=mean(MeanDepDepth),
             MaxDepDepth=mean(MaxDepDepth),
-            MaxDepLength=mean(MaxDepLength)
+            MaxDepLength=mean(MaxDepLength),
+            HighlightAV=first(HighlightAV)
             )
 
 
@@ -576,7 +578,7 @@ for (i in 1:14){
 }
 
 
-#### Test the linguistic features-----------------------------
+#### Analyse the linguistic features-----------------------------
 
 # does the experimental manipulation have an effect on the AnthroScore?
 
@@ -619,61 +621,79 @@ anova(mnull, m1) # p = .07
 # number of tokens) are highly correlated
 
 summary(lmer(Quality ~ NumSentences +
-               (1|SID) + (1|EID)+
+               (1+NumSentences|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 summary(lmer(Quality ~ NumWords +
-               (1|SID) + (1|EID)+
+               (1+NumWords|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 summary(lmer(Quality ~ NumTokens +
-               (1|SID) + (1|EID)+
+               (1+NumTokens|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 summary(lmer(Quality ~ MinDepDepth +
-               (1|SID) + (1|EID)+
+               (1+MinDepDepth|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 summary(lmer(Quality ~ MeanDepDepth +
-               (1|SID) + (1|EID)+
+               (1+MeanDepDepth|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 summary(lmer(Quality ~ MaxDepDepth +
-               (1|SID) + (1|EID)+
+               (1+MaxDepDepth|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 summary(lmer(Quality ~ MaxDepLength +
-               (1|SID) + (1|EID)+
+               (1+MaxDepLength|SID) + (1|EID)+
                (1|PID),
              data=d))
 
 
+# remove the Scenario-level random slope from the model testing NumWords
+m1 <- lmer(Quality ~ NumWords +
+               (1+NumWords|SID) + (1|EID)+
+               (1|PID),
+             data=d)
 
+m0 <- lmer(Quality ~ NumWords +
+             (1|SID) + (1|EID)+
+             (1|PID),
+           data=d)
+
+anova(m0,m1)
 
 ### Counterfactual explanations are rated as less good despite the fact that
 ### they're longer, and that longer explanations are rated as better
 # This is in part because of the effect of NumWords on perceived Quality is 
 # weaker for Counterfactual explanations
 
-dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
+plot1 <- dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
   geom_point()+scale_x_continuous(trans='log10', breaks = c(3,9,30,90))+
   geom_smooth(method='lm')+
   coord_cartesian(ylim=c(1,5))+
   ylab('Perceived Quality')+xlab('Number of Words')+
   scale_color_discrete(name='Explanation Type')+
   #facet_wrap(~SID)+
-  theme_classic()+theme(legend.position = 'top',
+  theme_classic()+theme(legend.position = 'bottom',
                         axis.title=element_text(size=16),
                         axis.text=element_text(size=13),
-                        legend.text=element_text(size=12),
-                        legend.title = element_text(size=16)
+                        legend.text=element_text(size=10),
+                        legend.title = element_text(size=12)
                         )
+
+q <- ggMarginal(plot1, type='density', groupFill=TRUE)
+
+# uncomment the following to save plot on hard drive
+# png("QualityFromWords.png", width = 3000, height = 3000, units = "px", res = 600)
+# print(q)
+# dev.off()
 
 #ggsave('QualityFromWords.png', dpi=600, width=6.5, height=6)
 
@@ -686,10 +706,11 @@ dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
   scale_color_discrete(name='Explanation Type')+
   facet_wrap(~SID)+
   theme_classic()+theme(legend.position = 'top',
-                        axis.title=element_text(size=16),
-                        axis.text=element_text(size=13),
-                        legend.text=element_text(size=12),
-                        legend.title = element_text(size=16)
+                        axis.title=element_text(size=23),
+                        axis.text=element_text(size=16),
+                        legend.text=element_text(size=19),
+                        legend.title = element_text(size=23),
+                        strip.text=element_text(size=16)
   )
 
 #ggsave('QualityFromWordsByScer.png', dpi=600, width=10, height=10)
@@ -724,6 +745,14 @@ mNumWordsNull <- lmer(
 
 anova(mNumWords, mNumWordsNull)
 
+# remove scenario-level random intercept
+mNoScenarioIntercept <- lmer(
+  Quality ~ type*NumWords +  (1|EID)+
+    (1|PID), data=d
+)
+
+anova(mNumWords, mNoScenarioIntercept)
+
 # dependency depth has a larger effect on Mechanistic and Teleological
 # than Counterfactual explanations
 d %>% ggplot(aes(x=MeanDepDepth,y=Quality,color=type))+
@@ -744,3 +773,27 @@ mDepNull <- lmer(
 )
 
 anova(mDep, mDepNull)
+
+
+# does the effect of teleology depend on whether the vehicle is identified
+# as an AV?
+
+mainplot <- dcompexp %>% ggplot(aes(x=Teleological, y=Quality,
+                                    color=HighlightAV))+geom_point()+
+  geom_smooth(method='lm')+
+  scale_color_manual(values=c('darkgreen', 'purple'), name='Vehicle type')+
+  coord_cartesian(ylim=c(1,5))+
+  xlab('Perceived Teleology')+ylab('Perceived Quality')+
+  theme_classic()+theme(legend.position = 'bottom',
+                         axis.title=element_text(size=16),
+                         axis.text=element_text(size=13),
+                         legend.text=element_text(size=12))
+
+
+p <- ggMarginal(mainplot, type='density', groupFill=TRUE)
+
+# uncomment the following to save plot on hard drive
+# png("teleologyEffectByHighlight.png", width = 3000, height = 3000, units = "px", res = 600)
+# print(p)
+# dev.off()
+
