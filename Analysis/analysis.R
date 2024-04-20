@@ -114,7 +114,7 @@ ggcorrplot(rdf$r,
            pch.cex = 12,p.mat = rdf$P*36,show.legend = FALSE) +
   scale_fill_continuous_sequential(palette="sunset", rev=F)
 
-#ggsave('correlationMatrix.png', dpi=600, width=6, height=5)
+#ggsave('correlationMatrix.pdf', dpi=600, width=6, height=5)
 
 
 #### effect of experimental manipulation-----------------------
@@ -242,7 +242,7 @@ coefCombined
 annotate_figure(coefCombined,
                 bottom=text_grob('Standardized coefficient', size=16))
 
-#ggsave('predictorsCombined.png', width=7, height=6)
+#ggsave('predictorsCombined.pdf', width=7, height=6, dpi=600)
 
 
 ## test whether Teleology is 'significantly' better than other predictors
@@ -369,7 +369,7 @@ dlong %>% ggplot(aes(x=perceivedType, y=value, fill=type))+
   theme(legend.position='none',
         axis.text.x=element_text(angle=90))
 
-#ggsave('manipulationCheck.png', dpi=600, width=6, height=4.5)
+#ggsave('manipulationCheck.pdf', dpi=600, width=6, height=4.5)
 
 
 
@@ -675,7 +675,7 @@ anova(m0,m1)
 # weaker for Counterfactual explanations
 
 plot1 <- dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
-  geom_point()+scale_x_continuous(trans='log10', breaks = c(3,9,30,90))+
+  geom_point(alpha=.7)+scale_x_continuous(trans='log10', breaks = c(3,9,30,90))+
   geom_smooth(method='lm')+
   coord_cartesian(ylim=c(1,5))+
   ylab('Perceived Quality')+xlab('Number of Words')+
@@ -691,11 +691,11 @@ plot1 <- dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
 q <- ggMarginal(plot1, type='density', groupFill=TRUE)
 
 # uncomment the following to save plot on hard drive
-# png("QualityFromWords.png", width = 3000, height = 3000, units = "px", res = 600)
+
+# pdf("QualityFromWords.pdf", width = 5, height = 5#, units = "px" #res = 600
+# )
 # print(q)
 # dev.off()
-
-#ggsave('QualityFromWords.png', dpi=600, width=6.5, height=6)
 
 # broken down by Scenario
 dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
@@ -713,7 +713,7 @@ dcompexp %>% ggplot(aes(x=NumWords,y=Quality,color=type))+
                         strip.text=element_text(size=16)
   )
 
-#ggsave('QualityFromWordsByScer.png', dpi=600, width=10, height=10)
+#ggsave('QualityFromWordsByScer.pdf', dpi=600, width=10, height=10)
 
 
 
@@ -779,7 +779,7 @@ anova(mDep, mDepNull)
 # as an AV?
 
 mainplot <- dcompexp %>% ggplot(aes(x=Teleological, y=Quality,
-                                    color=HighlightAV))+geom_point()+
+                                    color=HighlightAV))+geom_point(alpha=.7)+
   geom_smooth(method='lm')+
   scale_color_manual(values=c('darkgreen', 'purple'), name='Vehicle type')+
   coord_cartesian(ylim=c(1,5))+
@@ -793,7 +793,7 @@ mainplot <- dcompexp %>% ggplot(aes(x=Teleological, y=Quality,
 p <- ggMarginal(mainplot, type='density', groupFill=TRUE)
 
 # uncomment the following to save plot on hard drive
-# png("teleologyEffectByHighlight.png", width = 3000, height = 3000, units = "px", res = 600)
+# pdf("teleologyEffectByHighlight.pdf", width = 5, height = 5)
 # print(p)
 # dev.off()
 
