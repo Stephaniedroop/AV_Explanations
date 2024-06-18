@@ -797,3 +797,82 @@ p <- ggMarginal(mainplot, type='density', groupFill=TRUE)
 # print(p)
 # dev.off()
 
+
+
+
+### does the effect of type on quality hold up controlling for linguistic
+### features?
+
+qBaseline <- lmer(Quality ~ type+(1+type|SID)+
+                                 (1|EID)+ (1|PID), 
+                               data=d)
+summary(qBaseline)
+
+qNumWords <- lmer(Quality ~ type+NumWords+(1+type|SID)+
+                      (1|EID)+ (1|PID), 
+                    data=d)
+summary(qNumWords)
+
+# extract standardized parameters
+standardize_parameters(qNumWords, method = "pseudo",
+                              ci_method = "satterthwaite")
+
+
+
+qMeanDepDepth <- lmer(Quality ~ type+MeanDepDepth+(1+type|SID)+
+                    (1|EID)+ (1|PID), 
+                  data=d)
+summary(qMeanDepDepth)
+
+# extract standardized parameters
+standardize_parameters(qMeanDepDepth, method = "pseudo",
+                       ci_method = "satterthwaite")
+
+
+qNumSentences <- lmer(Quality ~ type+NumSentences+(1+type|SID)+
+                        (1|EID)+ (1|PID), 
+                      data=d)
+summary(qNumSentences)
+
+# extract standardized parameters
+standardize_parameters(qNumSentences, method = "pseudo",
+                       ci_method = "satterthwaite")
+
+
+qNumTokens <- lmer(Quality ~ type+NumTokens+(1+type|SID)+
+                        (1|EID)+ (1|PID), 
+                      data=d)
+summary(qNumTokens)
+
+# extract standardized parameters
+standardize_parameters(qNumTokens, method = "pseudo",
+                       ci_method = "satterthwaite")
+
+
+qMinDepDepth <- lmer(Quality ~ type+MinDepDepth+(1+type|SID)+
+                     (1|EID)+ (1|PID), 
+                   data=d)
+summary(qMinDepDepth)
+# extract standardized parameters
+standardize_parameters(qMinDepDepth, method = "pseudo",
+                       ci_method = "satterthwaite")
+
+
+qMaxDepDepth <- lmer(Quality ~ type+MaxDepDepth+(1+type|SID)+
+                       (1|EID)+ (1|PID), 
+                     data=d)
+summary(qMaxDepDepth)
+# extract standardized parameters
+standardize_parameters(qMaxDepDepth, method = "pseudo",
+                       ci_method = "satterthwaite")
+
+
+qMaxDepLength <- lmer(Quality ~ type+MaxDepLength+(1+type|SID)+
+                       (1|EID)+ (1|PID), 
+                     data=d)
+summary(qMaxDepLength)
+
+# extract standardized parameters
+standardize_parameters(qMaxDepLength, method = "pseudo",
+                       ci_method = "satterthwaite")
+

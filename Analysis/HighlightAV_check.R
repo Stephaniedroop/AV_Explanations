@@ -5,11 +5,12 @@
 # 'car' or 'self driving car' (in var 'HighlightAV') had effect
 # lmer model found NO DIFFERENCE >>> 
 
-# Following format of `anaysis.R` but separate script to keep them short
+# Following format of `analysis.R` but separate script to keep them short
 
 # load packages
 library(tidyverse)
 library(lme4)
+library(bayestestR)
 
 rm(list = ls())
 
@@ -147,3 +148,54 @@ Pdav
 
 # The two plots look almost identical, with same pattern and values 
 # (although there are fewer datapoints for the car than the av)
+
+
+
+### Bayes Factors--------------------------------
+
+# Quality ~ HighlightAV
+mfull<- lmer(Quality ~ type + HighlightAV +
+                 (1|SID)+(1|EID)+(1|PID), 
+               data = d)
+summary(mfull)
+
+mqnull<- lmer(Quality ~ type +
+               (1|SID)+(1|EID)+(1|PID), 
+             data = d)
+summary(mqnull)
+
+bayesfactor_models(mqfull, denominator = mqnull)
+
+# HighlightAV has little effect on perceived Quality, BF = .019
+
+
+# Teleology ~ HighlightAV
+
+mtfull<- lmer(Teleological ~ type + HighlightAV +
+               (1|SID)+(1|EID)+(1|PID), 
+             data = d)
+summary(mtfull)
+
+mtnull<- lmer(Teleological ~ type +
+               (1|SID)+(1|EID)+(1|PID), 
+             data = d)
+summary(mtnull)
+
+bayesfactor_models(mtfull, denominator = mtnull)
+# HighlightAV has little effect on perceived Teleology, BF = .019
+
+
+# Quality ~ HighlightAV * Teleology
+mintfull<- lmer(Quality ~ type + Teleological*HighlightAV +
+                (1|SID)+(1|EID)+(1|PID), 
+              data = d)
+summary(mintfull)
+
+mintnull<- lmer(Quality ~ type + Teleological + HighlightAV +
+                (1|SID)+(1|EID)+(1|PID), 
+              data = d)
+summary(mintnull)
+
+bayesfactor_models(mintfull, denominator = mintnull)
+# HighlightAV*Teleology interaction has little effect on perceived Quality,
+# BF = .093
